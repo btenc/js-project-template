@@ -6,14 +6,14 @@ My personal basic project template using webpack and development packages that I
 
 - Webpack bundler already setup
 - All files linked properly
-- Build scripts that go into the `./dist` folder and clean the folder before building
+- Build scripts that output into `./dist` folder and configured to clean the folder before building
 - Github Pages `./dist` folder branch and publishing script
-- ESLint with Airbnb format enabled
+- ESLint with Airbnb format enabled in `.eslintrc.json`
 - ESLint and Prettier conflicts fixed with `eslint-plugin-prettier`
-- Normalize.css imported (my preferred CSS reset)
-- Inline source map devtool enabled
-- HtmlWebpackPlugin already configured
-- style-loader and css-loader configured
+- Normalize.css imported in `index.js` (my preferred CSS reset)
+- Inline source map devtool enabled in `webpack.config.js`
+- HtmlWebpackPlugin already configured in `webpack.config.js`
+- style-loader and css-loader configured in `webpack.config.js`
 
 ## Guide
 
