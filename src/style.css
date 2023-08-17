@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("./fonts/my-font.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "MyFont";
+  background: url(./images/favicon.png);
+  color: blue;
+}
