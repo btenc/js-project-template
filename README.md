@@ -2,9 +2,7 @@
 
 My personal basic project template using webpack and development packages that I use, along with the scripts I use on every project.
 
-File bundler, file structure, build scripts, linting tools, CSS reset, debugging tools, output management, and more all configured and are are ready to use.
-
-- All the packages listed in `package.json` are already setup and configured with all-purpose settings. To see how things are configured specifically or to make changes check `webpack.config.js` and `.eslintrc.json`.
+All the packages listed in `package.json` are already setup and configured with all-purpose settings. To see how things are configured specifically or to make changes check `webpack.config.js` and `.eslintrc.json`.
 
 ## What's configured?
 
