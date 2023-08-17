@@ -4,16 +4,15 @@ My personal basic project template using webpack and development packages that I
 
 ## What's included?
 
+- All the packages listed in `package.json` are already setup and configured with general settings
 - Webpack bundler already setup
 - All files linked properly
-- Build scripts that output into `./dist` folder and configured to clean the folder before building
+- Build scripts that output into `./dist` folder and are configured to clean the folder before building
 - Github Pages `./dist` folder branch and publishing script
 - ESLint with Airbnb format enabled in `.eslintrc.json`
 - ESLint and Prettier conflicts fixed with `eslint-plugin-prettier`
 - Normalize.css imported in `index.js` (my preferred CSS reset)
 - Inline source map devtool enabled in `webpack.config.js`
-- HtmlWebpackPlugin already configured in `webpack.config.js`
-- style-loader and css-loader configured in `webpack.config.js`
 
 ## Guide
 
