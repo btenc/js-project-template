@@ -1,18 +1,23 @@
-# Javascript Project Template
+# Generic Javascript Project Template
 
 My personal basic project template using webpack and development packages that I use, along with the scripts I use on every project.
 
-## What's included?
+File bundler, file structure, build scripts, linting tools, CSS reset, debugging tools, output management, and more all configured and are are ready to use.
 
-- All the packages listed in `package.json` are already setup and configured with general settings
-- Webpack bundler already setup
-- All files linked properly
-- Build scripts that output into `./dist` folder and are configured to clean the folder before building
-- Github Pages `./dist` folder branch and publishing script
-- ESLint with Airbnb format enabled in `.eslintrc.json`
-- ESLint and Prettier conflicts fixed with `eslint-plugin-prettier`
-- Normalize.css imported in `index.js` (my preferred CSS reset)
-- Inline source map devtool enabled in `webpack.config.js`
+- All the packages listed in `package.json` are already setup and configured with all-purpose settings. To see how things are configured specifically or to make changes check `webpack.config.js` and `.eslintrc.json`.
+
+## What's configured?
+
+- Webpack (module bundler)
+- Normalize.css (CSS Reset)
+- ESLint (linter)
+  - Setup with Airbnb style guide
+- Prettier (code formatter)
+  - Includes eslint-config-prettier to solve conflicts between ESLint and Prettier
+- Normalize.css (CSS Reset)
+- css-loader and style-loader to bundle `.css` files
+- html-webpack-plugin to bundle `.html` files
+- Various development and hosting scripts
 
 ## Guide
 
@@ -26,10 +31,10 @@ My personal basic project template using webpack and development packages that I
 
 ### Included scripts
 
-- **Build** the project using webpack with `npm run build`
-- **Build** the project on save using webpack with `npm run build-watch`
+- **Build** the project to `./dist` using webpack with `npm run build`
+- **Build** the project on save to `./dist` using webpack with `npm run build-watch`
 - **Publish** a dist folder github pages branch with `npm run github-pages-deploy`
-- **Lint** JS files in the src folder with `npm run lint`
+- **Lint** .js files in the `./src` folder with `npm run lint`
 
 ## Optional if you use VSCode:
 
