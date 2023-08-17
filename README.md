@@ -22,6 +22,7 @@ My personal basic project template using webpack and development packages that I
 1. Name the repository and clone it on your local machine
 1. Navigate to the repository's local folder and open in your preferred code editor
 1. **Install** all packages listed in `package.json` with `npm install`
+1. Program in the `./src` folder, use included scripts to build your project, (output is in `./dist`)
 
 ### Included scripts
 
