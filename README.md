@@ -1,6 +1,6 @@
-# Generic Javascript Project Template
+# Webpack Javascript Project Template
 
-My personal basic project template using webpack and development packages that I use, along with the scripts I use on every project.
+My personal project template using webpack and development packages that I use, along with the scripts I use on every project.
 
 All the packages listed in `package.json` are already setup and configured with all-purpose settings. To see how things are configured specifically or to make changes check `webpack.config.js` and `.eslintrc.json`
 
