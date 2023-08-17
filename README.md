@@ -32,14 +32,14 @@ All the packages listed in `package.json` are already setup and configured with 
 - **Build** the project to `./dist` using webpack with `npm run build`
 - **Build** the project on save to `./dist` using webpack with `npm run build-watch`
 - **Publish** a dist folder github pages branch with `npm run github-pages-deploy`
-- **Lint** .js files in the `./src` folder with `npm run lint`
+- **Lint** `.js` files in the `./src` folder with `npm run lint`
 
 ## Optional if you use VSCode:
 
 - `Prettier - Code Formatter` VSCode Plugin
 - `ESLint VS Code Plugin` VSCode Plugin
 
-- Add config below to your VSCode settings.json to automatically lint with ESLint and format with Prettier on save.
+- Add config below to your VSCode `settings.json` (either for your workspace or user settings) to automatically lint with ESLint and format with Prettier on save.
 
 ```
 "editor.formatOnSave": true,
