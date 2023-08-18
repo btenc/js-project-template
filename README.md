@@ -12,7 +12,6 @@ All the packages listed in `package.json` are already setup and configured with 
   - Setup with Airbnb style guide
 - Prettier (code formatter)
   - Includes eslint-config-prettier to solve conflicts between ESLint and Prettier
-- Normalize.css (CSS Reset)
 - css-loader and style-loader to bundle `.css` files
 - html-webpack-plugin to bundle `.html` files
 - Various development and hosting scripts
