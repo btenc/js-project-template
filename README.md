@@ -1,4 +1,4 @@
-# Webpack Javascript Project Template
+# Webpack JS Project Template
 
 My personal project template using webpack and development packages that I use, along with the scripts I use on every project.
 
