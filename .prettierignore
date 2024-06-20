@@ -1,0 +1,10 @@
+# Ignore artifacts:
+build
+coverage
+
+#ignore folders:
+**/.git
+**/.svn
+**/.hg
+**/node_modules
+**/dist
